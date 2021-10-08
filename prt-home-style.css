@@ -1,0 +1,183 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #F1F2E6;
+}
+
+.main {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* LOGO */
+.box-logo {
+    max-width: 91px;
+    max-height: 60px;
+}
+
+#logo-prt {
+    width:80%;
+    height:80%;
+    top:30px;
+    left:20%;
+    position: relative;
+}
+
+/* HOME */
+.main-cont {
+    color: #231F20;
+    background:none;
+    top:50vh;
+    max-width: 80vw;
+    max-height: 80vh;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -270%);
+
+}
+
+h3 {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -90%);
+}
+
+.grid div, .grid2 div, .grid3 div {
+    border: 2px solid #00afef42;
+    padding: 40px 10px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:auto;
+}
+
+.grid2, .grid3 {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    margin:auto;
+}
+
+button:hover {
+    border-radius: none;
+    background-color: #231F20;
+    color: #fafafa;
+    outline: #fafafa;
+}
+
+
+button {
+    color: #231F20;
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;  
+    padding: 5px;
+    font-variation-settings: "width" 125; 
+    width:120px;
+    height: 40px;
+}
+
+
+
+
+/* NAV*/
+
+
+#nav-sobre, #nav-contato, #nav-trampos {
+    position: fixed;
+    width: 300px;
+    height: 550px;
+    background: #fafafa;
+    border: 2px solid #ff330a3a;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    display:none;
+}
+
+#botao-x, #botao-xc, #botao-xt{
+    text-decoration: none;
+    background: transparent;
+    border-color: transparent;
+    outline: transparent;
+    width:50px;
+    color: #ff330a3a;
+}
+
+
+/* SOBRE*/
+
+
+#sobre {
+    background-color: #fafafa;
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 260%);
+
+ }
+
+
+/*.sombra-preta-botao-sobre {
+    height: 130px;
+    width: 56px;
+    background-color: #231F20;
+    border: #F1F2E6;
+    position: fixed;
+}*/
+
+
+
+/* TRAMPOS*/
+
+#trampos {
+
+    background-color: #fafafa;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 420%);
+ }
+
+
+/* CONTATO*/
+
+#contato {
+    background-color: #fafafa;
+    position:fixed; /* absolute para ficar parado no fundo */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 580%);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+
+@media screen and (max-width: 900px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin:auto;
+    }
+    #nav-sobre, #nav-contato, #nav-trampo {
+        position: fixed;
+       width: 800px;
+        height: 1000px;
+       background: #fafafa;
+       outline: #ff330a3a;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: 9;
+       display:none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin:auto;
+    }
+
+    #nav-sobre, #nav-contato, #nav-trampo {
+        position: fixed;
+       width: 1000px;
+        height: 800px;
+       background: #fafafa;
+       outline: #ff330a3a;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: 9;
+       display:none;
+    }
+
+}
